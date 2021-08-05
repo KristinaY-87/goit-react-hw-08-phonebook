@@ -1,0 +1,41 @@
+.title {
+  margin-top: 0;
+  text-align: center;
+}
+
+.list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: grid;
+  justify-content: center;
+  grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+  grid-gap: 24px;
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.text {
+  text-align: start;
+  font-weight: 500;
+  font-style: italic;
+}
+
+.btn {
+  display: inline-block;
+  margin: 0;
+  border-radius: 4px;
+  padding: 5px;
+  width: 100px;
+  font-weight: 700;
+  font-size: 16px;
+  cursor: pointer;
+  color: rgb(249, 251, 252);
+  background-color: rgb(104, 161, 184);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+}
